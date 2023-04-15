@@ -147,6 +147,8 @@ h1 {
     }
 }
 
+/*Falta formato 4k*/
+
 /* Tablet mas grande */
 @media (max-width: 952px) {
     header ul li a {
