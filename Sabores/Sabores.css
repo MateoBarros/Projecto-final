@@ -1,0 +1,82 @@
+#foto{
+    padding-top: 100px;
+    left: 0;
+    right:500;
+    margin:0;
+    width: 1345px;
+    height: 300px;
+    background-size: cover;
+    background-position: center 35%;
+    background-image: url("https://static.wixstatic.com/media/cc18d8_b2f71b31d1f54ef88be4655cbea78353~mv2.png/v1/fill/w_1343,h_663,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/cc18d8_b2f71b31d1f54ef88be4655cbea78353~mv2.png");
+}
+
+#nav{
+    padding-top: 10px;
+    padding-bottom: 35px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    opacity: 0.9;
+    font-family: Lucida Sans Unicode;
+    font-size: 15px;
+    color: black;
+ }
+
+ #container{
+    padding: 3%;
+ }
+
+#cremas, #chocolates, #dulceDeLeches, #frutales, #tortas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family:Tahoma;
+}
+
+#crema, #chocolate, #dulceDeLeche, #frutal, #torta{
+    padding-top: 20px;
+    font-family: Lucida Sans Unicode;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 250px;
+    font-size: 11px;
+    border-radius: 17px;
+    text-align: center;
+}
+
+#linkCremas, #linkChocolates,#linkDulceDeLeches,#linkFrutales,#linkTortas{
+    font-size: 50px;
+    color: rgb(251,204,226);
+    padding-left: 45px;
+    margin-top: 40px;
+    font-family:Arial Narrow;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 25px;
+    font-family:Arial Narrow;
+    margin-bottom: 1px;
+}
+
+p{
+    margin-top: 1px;
+    font-size: 14px;
+}
+
+footer{
+    position: absolute;
+    padding-top: 20px;
+    text-align: center;   
+    left: 0;
+    right:0;
+    font-size: 12px;
+    font-family: Lucida Sans Unicode;
+    background-color: rgb(251,204,226);
+}
