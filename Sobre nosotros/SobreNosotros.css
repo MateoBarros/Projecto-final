@@ -1,11 +1,17 @@
 header {
-    height: 120px;
+    height: 90px;
     padding: 20px 20px;
     background-color: rgb(251, 204, 226);
     margin-bottom: 50px;
     font-size: 5px;
+    top:0;
+    position: absolute;
+    left: 0;
+    width:1310px;
 }
-
+.nosotros{
+    margin-top: 200px;
+}
 header ul {
     float: right;
     text-align: center;
@@ -18,7 +24,7 @@ header li {
 
 li a.active,
 li a:hover {
-    background: magenta;
+    background: rgb(254,216,142);
     color: black;
     border-radius: 50px;
     transition: .5s;
@@ -50,7 +56,7 @@ li a:hover {
 }
 
 footer {
-    background-image: url(https://www.elespectador.com/resizer/TazeTrJrzV2beWS0wU3_sJXwl4c=/arc-anglerfish-arc2-prod-elespectador/public/FUKFCVSIZVAJJMRDP2LT2SQ6GA.jpg);
+    background-image: url(https://nuevecuatrouno.com/wp-content/uploads/2019/06/heladerias-portales-dellasera.jpeg);
     margin-top: 150px;
     position: absolute;
     padding-top: 100px;
@@ -62,11 +68,12 @@ footer {
     right: 0;
     font-size: 12px;
     font-family: Lucida Sans Unicode;
-    background-position: center 40%;
+    background-position: center 50%;
 }
 
 h1{
     text-align: center;
+    font-size: 50px;
 }
 
 .ImagenTexto {
@@ -84,6 +91,9 @@ padding-left: 10px;
     
     
 }
-
+body{
+    padding: 3%;
+    font-family: Lucida Sans Unicode;
+}
 
 

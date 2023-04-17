@@ -4,13 +4,38 @@
     right:500;
     margin:0;
     width: 1345px;
-    height: 300px;
-    background-size: cover;
-    background-position: center 35%;
-    background-image: url("https://static.wixstatic.com/media/cc18d8_b2f71b31d1f54ef88be4655cbea78353~mv2.png/v1/fill/w_1343,h_663,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/cc18d8_b2f71b31d1f54ef88be4655cbea78353~mv2.png");
+    height: 220px;
+    background-color: rgb(251, 204, 226);
+}
+ul {
+    padding-top: 35px;
+    float: right;
+    text-align: center;
 }
 
+li {
+    margin: 30px 5px;
+    display: inline-block;
+}
+li a.active,
+li a:hover {
+    background:rgb(254,216,142);
+    color: black;
+    border-radius: 50px;
+    transition: .5s;
+}
+.link {
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Lucida Sans Unicode;
+
+}
 #nav{
+    
     padding-top: 10px;
     padding-bottom: 35px;
     background-color: rgb(255, 255, 255);
@@ -70,13 +95,18 @@ p{
     font-size: 14px;
 }
 
-footer{
+footer {
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/heladeria-madrid-popota-1560378049.jpg?crop=0.821xw:0.614xh;0.131xw,0.223xh&resize=1200:*);
+    margin-top: 150px;
     position: absolute;
-    padding-top: 20px;
-    text-align: center;   
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    text-align: center;
     left: 0;
-    right:0;
+    right: 0;
     font-size: 12px;
     font-family: Lucida Sans Unicode;
-    background-color: rgb(251,204,226);
+    background-position: center 60%;
 }
