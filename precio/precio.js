@@ -1,5 +1,5 @@
 
-//checkbox limitado
+//checkbox limitadogit a
 let contador = [0, 0, 0]; 
 let maxi = 3;
 function validar(check, grupo) {
