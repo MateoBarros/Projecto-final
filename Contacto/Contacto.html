@@ -41,7 +41,7 @@
       <div class="col-lg-8 col-xl-12">
         <h1 id="tituloEstemosEn">ESTEMOS EN </h1>
         <h1 id="tituloContacto">CONTACTO</h1> <br>
-      <div style=" display: flex; justify-content: center; ">
+      <div class="divtop">
           <form id="form" class="form">
             <div >
               <div class="form-input-container">
@@ -55,8 +55,6 @@
                   />
               </div> 
               <br> 
-              <!-- acordate de sacar el br  -->
-              <!-- acordate de agregar el required -->
               <div class="form-input-container">
                   <label for="email">Email:</label>
                   <input
@@ -64,7 +62,7 @@
                     name="email"
                     type="email"
                     placeholder="Ingrese su email"
-                    
+                    required
                   />
               </div> <br>
               
@@ -75,25 +73,26 @@
                     name="asunto"
                     type="text"
                     placeholder="Ingrese el asunto a tratar"
-                    
+                    required
                   />
               </div> <br>
               
               <div class="form-input-container">
                   <label for="telefono">Telefono:</label>
                   <input
+                    style="appearance: textfield"
                     id="telefono"
                     name="telefono"
-                    type="tel"
+                    type="number"
                     placeholder="Ingrese su Telefono"
-                    
+                    required
                   />
                   <!-- pattern="[0-9]{3} [0-9]{4}-[0-9]{4}" -->
               </div> <br>
               
               <div class="form-input-container">
                   <label for="mensaje">Dejenos su mensaje!</label> <br>
-                  <textarea id="mensaje" placeholder="Escribe aquí el mensaje..."></textarea>
+                  <textarea id="mensaje" placeholder="Escribe aquí el mensaje..." required></textarea>
                   <p class="salida" id="salida"></p>
               </div>
           
