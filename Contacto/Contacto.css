@@ -26,7 +26,7 @@ header li {
 
 li a.active,
 li a:hover {
-    background: magenta;
+    background: rgba(181, 223, 225, 255);
     color: black;
     border-radius: 50px;
     transition: .5s;
@@ -58,6 +58,7 @@ li a:hover {
 .sideImage {
     margin-top: 150px;
     position: absolute;
+    padding-left: 70px;
 }
 
 footer {
@@ -88,6 +89,7 @@ footer {
 }
 
 .form-input-container {
+    margin-left: 30px;
     padding-top: 10px;
     border-radius: 10px;
     border-width: 1px;
@@ -142,9 +144,6 @@ h1 {
     padding-right: 20px;
 }
 
-.sidebar {
-    float: left
-}
 
 /* Portatil */
 @media (max-width: 1024px) {

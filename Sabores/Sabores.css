@@ -28,7 +28,7 @@ li {
 
 li a.active,
 li a:hover {
-    background: magenta;
+    background: rgba(181, 223, 225, 255);
     color: black;
     border-radius: 50px;
     transition: .5s;
