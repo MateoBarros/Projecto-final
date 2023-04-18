@@ -6,6 +6,11 @@ header {
     font-size: 5px;
 }
 
+.divtop{
+ display: flex; 
+ justify-content: center; 
+}
+
 header ul {
     float: right;
     text-align: center;
