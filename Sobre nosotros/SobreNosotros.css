@@ -1,5 +1,5 @@
 header {
-    height: 90px;
+    height: 120px;
     padding: 20px 20px;
     background-color: rgb(251, 204, 226);
     margin-bottom: 50px;
@@ -7,7 +7,7 @@ header {
     top:0;
     position: absolute;
     left: 0;
-    width:1310px;
+    width:100%;
 }
 .nosotros{
     margin-top: 200px;
@@ -21,7 +21,12 @@ header li {
     margin: 30px 5px;
     display: inline-block;
 }
-
+.textoimagen{
+    font-size: 45px;
+}
+.nombretexto{
+    font-size: 50px;
+}
 li a.active,
 li a:hover {
     background: rgba(181, 223, 225, 255);
