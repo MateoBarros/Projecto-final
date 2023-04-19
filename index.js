@@ -6,9 +6,12 @@ httpRequest.onload = async () => {
         const datosApi = await JSON.parse(httpRequest.responseText)
         
         datosApi.forEach(temperatura => {
-            const li= document.createElement("li")
-            li.textContent = "La temperatura en " + temperatura.name + " es de " + temperatura.weather.tempDesc + " y con un ambiente " + temperatura.weather.description
-                document.getElementById("listaCriptos").appendChild(li)
+            if (temperatura.int_number===87544 || temperatura.int_number===87574) {
+                 const li= document.createElement("li")
+                li.textContent = "La temperatura en nuestro local de  " + temperatura.name + " es de " + temperatura.weather.tempDesc + " y con un ambiente " + temperatura.weather.description
+                 document.getElementById("listaCriptos").appendChild(li)
+            }
+            
         })
     }
 }

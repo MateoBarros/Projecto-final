@@ -28,6 +28,12 @@ header ul {
     text-align: center;
 }
 
+ul{
+    list-style:none;
+}
+li{
+    padding-top: 20px;
+}
 header li {
     margin: 30px 5px;
     display: inline-block;
