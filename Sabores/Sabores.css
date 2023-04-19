@@ -98,7 +98,11 @@ li a:hover {
     justify-content: space-between;
     font-family:Tahoma;
 }
-
+.link{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
 #crema, #chocolate, #dulceDeLeche, #frutal, #torta{
     padding-top: 20px;
     font-family: Lucida Sans Unicode;

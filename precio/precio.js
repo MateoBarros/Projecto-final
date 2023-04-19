@@ -57,9 +57,7 @@ function enviar(event){
 
 
   //validacion de campos
-(() => {
-  'use strict'
-
+function validarCampos() {
   const forms = document.querySelectorAll('.needs-validation')
   Array.from(forms).forEach(form => {
     form.addEventListener('submit', event => {
@@ -70,4 +68,6 @@ function enviar(event){
       form.classList.add('was-validated')
     }, false)
   })
-})()
+}
+
+validarCampos()

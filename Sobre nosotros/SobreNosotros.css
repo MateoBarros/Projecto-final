@@ -1,5 +1,5 @@
 header {
-    height: 120px;
+ 
     padding: 20px 20px;
     background-color: rgb(251, 204, 226);
     margin-bottom: 50px;
@@ -22,7 +22,7 @@ header li {
     display: inline-block;
 }
 .textoimagen{
-    font-size: 45px;
+    font-size: 30px;
 }
 .nombretexto{
     font-size: 50px;
@@ -88,8 +88,8 @@ padding-left: 10px;
 }
  
 .imagen {
-    width: 250px;
-    height: 250px; 
+    width: 200px;
+    height: 200px; 
     float: right;
     border-radius: 50%;
     
