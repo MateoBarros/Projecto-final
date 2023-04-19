@@ -43,21 +43,34 @@
                     <h2 class="mb-4">Arma tu pedido</h2>
                     <div class="" id="seleccion">
                        
-                        <a class="btn btn-warning fw-bold" data-bs-toggle="collapse" href="#sabores" role="button" aria-expanded="false" aria-controls="collapseExample fw-bold">1 KG</a>
-                        <a class="btn btn-warning fw-bold" data-bs-toggle="collapse" href="#sabores"  role="button" aria-expanded="false" aria-controls="collapseExample fw-bold">1/2 KG</a>
-                        <a class="btn btn-warning fw-bold" data-bs-toggle="collapse" href="#sabores"  role="button" aria-expanded="false" aria-controls="collapseExample">1/4 KG</a>
-                        <a class="btn btn-warning fw-bold" data-bs-toggle="collapse" href="#tortasabores" role="button" aria-expanded="false" aria-controls="collapseExample">TORTA</a>
+                        <a class="btn btn-warning fw-bold" data-bs-toggle="collapse" href="#sabores,#totalkilo" role="button" aria-expanded="false" aria-controls="collapseExample fw-bold" id="btnkilo">1 KG</a>
+                        <a class="btn btn-warning fw-bold" data-bs-toggle="collapse" href="#sabores,#totalmediokilo"  role="button" aria-expanded="false" aria-controls="collapseExample fw-bold" id="btnmediokilo">1/2 KG</a>
+                        <a class="btn btn-warning fw-bold" data-bs-toggle="collapse" href="#sabores,#totalcuarto"  role="button" aria-expanded="false" aria-controls="collapseExample" id="btncuarto">1/4 KG</a>
+                        <a class="btn btn-warning fw-bold" data-bs-toggle="collapse" href="#tortasabores" role="button" aria-expanded="false" aria-controls="collapseExample" id="btntorta">TORTA</a>
+                        
                         
                     </div>
                 </div>
-        <div class="collapse" id="sabores">    
-                    <div id="cantidad">
-                    <h3>Cantidad</h3>
+       
+                <div id="preciotodos"></div>
+                   <div class="collapse" id="totalkilo"> 
+                    <h3 class="m-3">Cantidad 1KG</h3>
                     <input type="number" class="cantidad" id="cantidad1kg"/>
                     </div>
+ 
+                    <div class="collapse" id="totalmediokilo"> 
+                        <h3 class="m-3">Cantidad 1/2 KG</h3>
+                        <input type="number" class="cantidad" id="cantidadmedio"/>
+                    </div>
 
-                <div id="sabores"class=" mb-4 text-start">
-                    <h4 class="text-center">Eliga 3 sabores</h4>
+                    <div class="collapse" id="totalcuarto">
+                        <h3 class="m-3">Cantidad 1/4 KG</h3>
+                        <input type="number" class="cantidad" id="cantidadcuarto"/>
+                        </div>
+
+
+                <div id="sabores"class="collapse mb-4 text-start">
+                    <h4 class="text-center m-3">Eliga 3 sabores</h4>
                     <form id="form" name="form"> 
                         <h6 class="m-2">CREMAS</h6>
                         <div>
@@ -154,15 +167,27 @@
                     </form>
                 </div>
         </div>
-        <div class="collapse" id="sabores">   
-            <div class="row" id="total">
 
-            <h2 class="fw-bold">$<span id="totalprecio"></span></h2>              
+            <div class="collapse" id="totalkilo">   
+            <div class="row" id="total">
+            <h2 class="fw-bold text-center">$<span id="kiloprecio"></span></h2>              
             </div>
-        </div>
+            </div> 
+
+            <div class="collapse" id="totalmediokilo">    
+            <div class="row" id="total">
+            <h2 class="fw-bold text-center">$<span id="medioprecio"></span></h2>              
+            </div>
+            </div> 
+
+            <div class="collapse" id="totalcuarto">   
+            <div class="row" id="total">
+            <h2 class="fw-bold text-center">$<span id="cuartoprecio"></span></h2>              
+            </div>
+            </div> 
 
             <div class="collapse" id="tortasabores">
-                <form id="form">
+                <form id="form" class="col-md-6 bg-white mx-auto text-center">
                     <div id="tortasabores" class="form-check mb-4 text-start" id="form1">
                             <h6 class="m-1">Tortas</h6>
                             <div id="containertorta">
@@ -186,7 +211,7 @@
                     </div> 
                 </form>
                 <div class="total">
-                <h2 class="fw-bold">$<span id="totaltorta"></span></h2>
+                <h2 class="fw-bold text-center">$<span id="totaltorta"></span></h2>
                 </div> 
             </div> 
         </div>

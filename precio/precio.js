@@ -14,9 +14,9 @@ function validar(check, grupo) {
    }
 }
 
-//sumar compra
+//sumar 1kg
 let cantidad1kg = document.getElementById("cantidad1kg");
-let totalprecio = document.getElementById("totalprecio");
+let totalprecio = document.getElementById("kiloprecio");
 
 cantidad1kg.addEventListener("input",function(){
   let numero = cantidad1kg.value;
@@ -24,14 +24,24 @@ cantidad1kg.addEventListener("input",function(){
   totalprecio.textContent = calculo;
 });
 
-// let cantidadmedio = document.getElementById("cantidadmedio");
-// let totalmedio = document.getElementById("totalmedio");
+//1/2kg
+let cantidadmedio = document.getElementById("cantidadmedio");
+let medioprecio = document.getElementById("medioprecio");
+cantidadmedio.addEventListener("input",function(){
+  let numero = cantidadmedio.value;
+  let calculo = numero * 1500;
+  medioprecio.textContent = calculo;
+});
 
-// cantidadmedio.addEventListener("input",function(){
-//   let numero = cantidadmedio.value;
-//   let calculo = numero * 1500;
-//   totalprecio.textContent = calculo;
-// });
+//cuarto
+
+let cantidadcuarto = document.getElementById("cantidadcuarto");
+let cuartoprecio = document.getElementById("cuartoprecio");
+cantidadcuarto.addEventListener("input",function(){
+  let numero = cantidadcuarto.value;
+  let calculo = numero * 1050;
+  cuartoprecio.textContent = calculo;
+});
 
 //total torta
 let containertorta = document.getElementById('containertorta');
@@ -55,7 +65,7 @@ function enviar(event){
     mensaje.innerHTML= "Su pedido fue enviado!"
   }
 
-
+  
   //validacion de campos
 function validarCampos() {
   const forms = document.querySelectorAll('.needs-validation')
